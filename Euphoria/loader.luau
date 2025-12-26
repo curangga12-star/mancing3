@@ -17,7 +17,7 @@ end
 local loaders = {
 	[121864768012064] = {
 		name = "fish it",
-		url  = "https://raw.githubusercontent.com/bimoraa/Euphoria/refs/heads/main/MacUI/main.luau"
+		url  = "https://raw.githubusercontent.com/curangga12-star/mancing3/refs/heads/main/Euphoria/MacUI/main.luau"
 	}
 }
 
