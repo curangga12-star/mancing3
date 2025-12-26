@@ -21,7 +21,7 @@ local loaders = {
 	}
 }
 
-local default_loader = loaders[6911148748]
+local default_loader = loaders[121864768012064]
 
 --// Load script
 local function load(url)
