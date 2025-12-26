@@ -17,37 +17,6 @@ local starter_gui: StarterGui   = game:GetService("StarterGui")
 
 -- ininya execute aja di main script biar gabisa di hook
 
---@types
-type loader_config = {
-	name: string,
-	url: string,
-	version: string?,
-	author: string?,
-}
-
---@list_game_loaders
-local ___loaders: { [number]: loader_config } = {
-	[121864768012064] = {
-		name    = "fish it",
-		url     = "https://api.luarmor.net/files/v3/loaders/0ef4e27ac6957fc36ee7113bffa52c69.lua",
-		version = "1.0.0",
-		author  = "euphoria",
-	},
-    [6911148748] = {
-        name    = "cedit",
-        url     = "https://api.luarmor.net/files/v3/loaders/69b3e3559dd7add9f6450a2e13e831ac.lua",
-        version = "4.2.5",
-        author  = "kimmy",
-    }
-}
-
-local ___default_loader: loader_config = {
-	name    = "cedit",
-	url     = "https://api.luarmor.net/files/v3/loaders/69b3e3559dd7add9f6450a2e13e831ac.lua",
-	version = "4.2.5",
-	author  = "kimmy",
-}
-
 --@utility
 local function __notify(title: string, text: string): ()
 	pcall(function()
