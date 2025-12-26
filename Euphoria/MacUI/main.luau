@@ -41,7 +41,7 @@ local assets = {
 	roundBottom = "rbxassetid://16287194510",
 }
 
-local IconsURL = "https://raw.githubusercontent.com/Footagesus/Icons/main/Main-v2.lua"
+local IconsURL = "https://raw.githubusercontent.com/curangga12-star/mancing3/refs/heads/main/Icons/Main-v2.lua"
 
 local Icons
 pcall(function()
