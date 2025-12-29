@@ -88,5 +88,3 @@ local loader_config: loader_config = ___loaders[current_place_id] or ___default_
 
 --@main execution
 __load_script(loader_config.url)
-
-
